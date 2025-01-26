@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Retrouvez mon portfolio, dans lequel je présente mes compétences et mes projets.">
+    <meta name="author" content="DELENN DECAMBRON">
+    <meta name="keywords" content="Portfolio, Marketing Digital, Web Design, SEO">
+    <title>Portfolio - Delenn Decambron</title>
+
+<!-- FAVICON -->
+    <link
+      rel="FAVICON"
+      href="./packages/images/favicon.ico"
+      type="image/favicon.ico"
+    />
+
+<!-- STYLE CSS -->
+    <link rel="stylesheet" href="./packages/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+<!-- ICONS -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+
+<!-- EMAIL JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("VvDFCv60mty5CvKQq");
+      })();
+    </script>
+
+<!-- HTML Meta Tags -->
+    <title>Delenn Decambron - Développeuse Full Stack Web</title>
+    <link rel="canonical" href="https://github.com/ddelenn.io/" />
+    <meta
+      name="description"
+      content="Véritable couteau-suisse du digital, je combine expertise en marketing, analyse de 
+      données et un esprit curieux qui m'amène à explorer de nouveaux horizons, du développement web 
+      aux stratégies innovantes."
+    />
+    <meta
+      name="keywords"
+      content="delenn, decambron, delenndecambron,ux,ui,graphic,design,branding,experience,iOS,android,
+      product,manager,freelance,interface,app,react,laravel,designer,cv,web,website,websites,web design,
+      design,graphic design,logo design,freelance,responsive,mobile,mobile design,unique,fun,typography,
+      hand drawn,lettering,illustration,fonts,type,handdrawn,affordable,small business,personal,blog,
+      portfolio,store,prints,font,icons,developer-portfolio"
+    />
+
+    <!-- MS Clarity -->
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "mkg8jw1rxf");
+    </script>
+  </head>
+
+  <body onload="preLoader()">
+    <!--==================== Loader ====================-->
+    <!-- <div id="loading"></div> -->
+
+<!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="./packages/images/logo.png" alt="Logo" title="Logo" />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link hover-underline">
+                <i class="uil uil-estate nav__icon"></i>Accueil
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link hover-underline">
+                <i class="uil uil-user nav__icon"></i>À propos
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link hover-underline">
+                <i class="uil uil-file-alt nav__icon"></i>Compétences
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link hover-underline">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Projets
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link hover-underline">
+                <i class="uil uil-message nav__icon"></i>Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <a
+            class="resume-button"
+            href="https://drive.google.com/uc?export=download&id=1Nf2bDO86JIAfmNyR3Geu6kJji3XNaO26"
+            download="CV-Delenn-DECAMBRON"
+            title="download"
+            >CV</a
+          >
+        </div>
+        <div class="nav__btns">
+          <i
+            class="uil uil-moon change-theme"
+            style="margin-left: 10px"
+            id="theme-button"
+            title="Theme"
+          ></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+
+              <!-- LINKEDIN -->
+              <a
+                href="https://www.linkedin.com/in/delenn-decambron/"
+                target="_blank"
+                class="home__social-icon"
+                title="Linkedin"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <!-- GITHUB -->
+              <a
+                href="https://github.com/ddelenn/"
+                target="_blank"
+                class="home__social-icon"
+                title="GitHub"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__data">
+              <span style="font-size: 16px">Moi, c'est</span>
+              <h1 class="home__title">Delenn</h1>
+              <h3 class="home__subtitle">Couteau-suisse du digital.</h3>
+              <p class="home__description">
+                Je combine expertise en marketing, analyse de données et un esprit curieux qui m'amène à explorer
+                de nouveaux horizons, du développement web aux stratégies innovantes.
+              </p>
+              <a
+                href="#contact"
+                class="button button--flex home__button"
+                title="Me contacter"
+              >
+                Me contacter<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Plus bas</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">À propos</h2>
+        <span class="section__subtitle">Qui suis-je ?</span>
+
+        <div class="about__container container grid">
+          <img
+            src="packages/images/delenn-avatar.png"
+            alt="Delenn avatar"
+            class="about__img"
+          />
+          <div class="about__data">
+            <p class="about__description">
+              Créative et rigoureuse, je suis déterminée à devenir développeuse web full stack 
+              avec une spécialisation en JavaScript. Lorsque je me passionne pour un domaine, 
+              je m’investis pleinement pour en maîtriser tous les aspects.
+            </p>
+            <p class="about__description" style="margin-top: -30px">
+              En quête d’une alternance, je souhaite affiner mes compétences dans un environnement stimulant,
+              où mes idées et mon énergie pourront contribuer à des projets ambitieux. Enthousiaste et 
+              persévérante, je mets un point d’honneur à mener chaque projet avec engagement et détermination.
+            </p>
+            <div class="about__buttons">
+              <a
+                href="https://drive.google.com/uc?export=download&id=1Nf2bDO86JIAfmNyR3Geu6kJji3XNaO26"
+                download="CV-Delenn-DECAMBRON"
+                class="button button--flex"
+                title="click to download"
+                >CV<i class="uil uil-download-alt button__icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification__section">
+        <h2 class="section__title">Mon parcours</h2>
+        <span class="section__subtitle">Ce que j'ai fait</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#work"
+            >
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Expériences
+            </div>
+            <div
+              class="qualification__button button--flex"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Formations
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+<!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qualification__content" data-content id="education">
+              <!--Education 1 -->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">MBA Marketing Digital & Business</h3>
+                  <span class="qualification__subtitle"
+                    >EFAP Paris</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Sept. 2021 - Sept. 2022
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="work"
+            >
+              <!--==================== Work 4 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Cheffe de projet web marketing</h3>
+                  <span class="qualification__subtitle"
+                    >Nielsen Design - Strasbourg, France</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Juin - Octobre 2024
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== Work 3 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Responsable Marketing Digital</h3>
+                  <span class="qualification__subtitle"
+                    >DOLCEO.COM - Colmar, France</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Nov. 2023 - Mai 2024
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== Work 2 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Data Analyst</h3>
+                  <span class="qualification__subtitle"
+                    >GECO - Colmar, France</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Avril - Nov. 2023
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== Work 1 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Chargée de communication produits</h3>
+                  <span class="qualification__subtitle"
+                    >ADEO Services - Lille, France</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Janv. 2021 - Sept. 2022
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Compétences</h2>
+        <span class="section__subtitle">Ce que j'utilise</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <div class="skills__content skills__open">
+              <div class="skills__list grid">
+                <div class="tech__row">
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-html"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">HTML<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-css"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">CSS<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="logos:javascript"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">JavaScript<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-vscode"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">VsCode<br /></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJETS ====================-->
+      <section class="services section" id="projects" style="margin-top: 50px">
+        <h2 class="section__title">Projets</h2>
+        <span class="section__subtitle">Ce que j'ai réalisé</span>
+
+        <div class="services__container container grid">
+          <!--==================== PROJET 1 ====================-->
+
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./packages/images/done-app.png"
+                  alt="Application DONE!"
+                  title="Application DONE!"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title">Application mobile : DONE!</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  J'ai créé une application qui permet aux consommateurs de garder de bonnes habitudes. 
+                  <br>
+                  <br>
+                  J'ai gagné deux prix : <strong>meilleur design</strong> et <strong>coup de coeur du jury</strong>.
+                </p>
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  Figma &nbsp;|&nbsp; Photoshop
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://www.figma.com/proto/16h8CZF8wwWfvodyJYJRF2/Done?type=design&node-id=17-9484&t=WCc1f2qfg7ynaxZ9-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=83%3A7357&show-proto-sidebar=1"
+                  title="Source Code"
+                  target="_blank"
+                  rel="noopener"
+                >
+                <i class="uil uil-external-link-alt button__icon"></i>
+                LE PROJET
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== PROJET 2 ====================-->
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./packages/images/Goodreads.png"
+                  alt="Refonte GoodReads"
+                  title="Refonte GoodReads"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title">Refonte de GoodReads.com</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                J'ai imaginé la refonte du site GoodReads. 
+                <br>
+                Je suis passée par les phases de planification, 
+                d’exploration, d’idéation, de génération et d’évaluation.
+                </p>
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  Adobe XD &nbsp;|&nbsp; Photoshop
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://xd.adobe.com/view/8bb1be79-f3ce-41aa-b46a-841bdd24903b-dee2/"
+                  title="Source Code"
+                  target="_blank"
+                  rel="noopener"
+                >
+                <i class="uil uil-external-link-alt button__icon"></i>
+                  LE PROJET
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== PROJET 3 ====================-->
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./packages/images/Kiprun.png"
+                  alt="Kiprun"
+                  title="Kiprun"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title"><em>Keep your senses awake</em></h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  Pour la sortie de la gamme premium KD900 de Kiprun, j'ai créé une campagne 
+                  autour des 5 sens avec comme slogan “<em>Keep your senses awake</em>” 
+                  "<em>Keep</em>" pour rappeller le "<em>Kip</em>" de Kiprun.
+                </p>
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  Premiere Pro &nbsp;|&nbsp; Photoshop
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://www.youtube.com/watch?v=HN6BL7__vW8"
+                  title="Source Code"
+                  target="_blank"
+                  rel="noopener"
+                >
+                <i class="uil uil-external-link-alt button__icon"></i>
+                LA VIDÉO
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+<!--==================== ME CONTACTER ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Me contacter</h2>
+        <span class="section__subtitle">Et si on travaillait ensemble ?</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-linkedin-alt contact__icon"></i>
+
+              <div>
+                <a
+                  class="hover-underline"
+                  href="https://www.linkedin.com/in/delenn-decambron/"
+                  target="_blank"
+                  style="color: #6a797c"
+                  title="click to open linkedin"
+                >
+                  <h3 class="contact__title">Linkedin</h3>
+                  <span class="contatc__subtitle">@delenn-decambron</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-github-alt contact__icon"></i>
+
+              <div>
+                <a
+                  class="hover-underline"
+                  href="https://github.com/ddelenn"
+                  target="_blank"
+                  style="color: #6a797c"
+                  title="click to open github"
+                >
+                  <h3 class="contact__title">GitHub</h3>
+                  <span class="contatc__subtitle">@ddelenn</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <a
+                  class="hover-underline"
+                  href="mailto:decambron.delenn@hotmail.fr"
+                  style="color: #6a797c"
+                  title="click to send email"
+                >
+                  <h3 class="contact__title">E-mail</h3>
+
+                  <span class="contatc__subtitle"
+                    >decambron.delenn@hotmail.fr</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact__form grid" id="contact-form">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Nom</label>
+                <input type="text" class="contact__input" id="name" required />
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">E-mail</label>
+                <input
+                  type="email"
+                  class="contact__input"
+                  id="email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <label for="" class="contact__label">Message</label>
+              <textarea
+                required
+                id="message"
+                class="contact__input"
+                title="Please fill out the this field."
+              ></textarea>
+            </div>
+
+            <p
+              style="font-size: 12px; margin-top: -15px"
+              title="Put your mail only"
+            >
+              <span style="color: #E05784">* </span> Vous allez recevoir un email de confirmation.
+            </p>
+            <div>
+              <button
+                id="email-submit"
+                class="button button--flex"
+                style="
+                  outline: none;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 16px;
+                  font-weight: 500;
+                  font-family: Poppins, sans-serif;
+                "
+                title="Send message"
+              >
+                Envoyer
+                <i class="uil uil-message button__icon"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <p class="footer__copy">
+          Made with ❤️ by Delenn Decambron
+          <br />
+        </p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up" title="click to go up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+  </body>
+</html>
